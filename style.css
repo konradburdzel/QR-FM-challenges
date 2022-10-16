@@ -1,10 +1,18 @@
 body {
     margin: 0;
     font-family: 'Outfit', sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
 }
 
 .qr-background {
     background-color: hsl(212, 45%, 89%);
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +52,7 @@ p {
 }
 
 @media only screen and (min-width: 1440px) {
-    body {
-        width: auto;
+    .qr-background {
+        min-width: 1440px;
     }
 }
